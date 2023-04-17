@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
@@ -11,14 +12,19 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <ModeToggle />
-      <Footer />
+      <Router>
+        <Routes>
+          <Navbar />
+          <Header />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="Contact" element={<Contact />} />
+          <ModeToggle />
+          <Footer />
+        </Routes>
+      </Router>
     </>
   );
 }
