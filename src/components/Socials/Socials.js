@@ -4,26 +4,37 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsSlack } from "react-icons/bs";
 
-
 function Socials() {
   return (
-    <div>
+    <>
       <div>
-        <Link to={{ pathname: "https://linkedin.com" }} target="_blank">
+        <Link
+          to={{ pathname: "https://linkedin.com" }}
+          target="_blank"
+          className="socials-icon"
+        >
           <BsLinkedin />
         </Link>
       </div>
       <div>
-        <Link to={{ pathname: "https://github.com" }} target="_blank">
+        <Link
+          to={{ pathname: "https://github.com" }}
+          target="_blank"
+          className="socials-icon"
+        >
           <BsGithub />
         </Link>
       </div>
       <div>
-        <Link to={{ pathname: "https://slack.com" }} target="_blank">
+        <Link
+          to={{ pathname: "https://slack.com" }}
+          target="_blank"
+          className="socials-icon"
+        >
           <BsSlack />
         </Link>
       </div>
-    </div>
+    </>
   );
 }
 

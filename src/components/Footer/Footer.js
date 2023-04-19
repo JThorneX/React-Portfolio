@@ -26,9 +26,9 @@ function Footer() {
             Contact Me
           </button>
         </Link>
-      <div className="cyan-logo">
-        <img src={cyanlogo} alt="cyan logo" className="cyan-logo-img" />
-      </div>
+        <div className="cyan-logo">
+          <img src={cyanlogo} alt="cyan logo" className="cyan-logo-img" />
+        </div>
       </div>
     </div>
   );

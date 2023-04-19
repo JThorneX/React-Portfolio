@@ -7,6 +7,14 @@
   justify-content: center;
 }
 
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  gap: 2rem;
+  aspect-ratio: 1/1;
+}
+
 .cyan-logo-img {
   width: 5rem;
 }
