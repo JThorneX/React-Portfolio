@@ -9,31 +9,19 @@ function Socials() {
   return (
     <>
       <div>
-        <Link
-          to={{ pathname: "https://linkedin.com" }}
-          target="_blank"
-          className="socials-icon"
-        >
+        <a href="https://linkedin.com" target="_blank" className="socials-icon">
           <BsLinkedin size="35" />
-        </Link>
+        </a>
       </div>
       <div>
-        <Link
-          to={{ pathname: "https://github.com" }}
-          target="_blank"
-          className="socials-icon"
-        >
+        <a href="https://github.com" target="_blank" className="socials-icon">
           <BsGithub size="35" />
-        </Link>
+        </a>
       </div>
       <div>
-        <Link
-          to={{ pathname: "https://slack.com" }}
-          target="_blank"
-          className="socials-icon"
-        >
+        <a href="https://slack.com" target="_blank" className="socials-icon">
           <BsSlack size="35" />
-        </Link>
+        </a>
       </div>
     </>
   );

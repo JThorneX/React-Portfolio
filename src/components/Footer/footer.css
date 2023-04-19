@@ -1,4 +1,6 @@
 .footer-wrapper {
+  background-color: var(--dark-bg);
+  color: var(--gold);
   display: grid;
   padding: 3rem;
   grid-template-columns: 25% 50% 25%;
@@ -30,6 +32,9 @@
 }
 
 .contact-btn {
+  background-color: var(--light-fade-bg);
+  color: var(--cyan);
+  border-radius: 0;
   margin-top: 2rem;
 }
 
