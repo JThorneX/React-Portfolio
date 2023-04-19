@@ -8,11 +8,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <Socials />
 
       <div className="container home-container">
-        <div className="home-img">
-        </div>
+        <div className="home-img"></div>
       </div>
 
       <Footer />
