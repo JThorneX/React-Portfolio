@@ -1,4 +1,5 @@
 import React from "react";
+import "./socials.css";
 import { Link } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -13,7 +14,7 @@ function Socials() {
           target="_blank"
           className="socials-icon"
         >
-          <BsLinkedin />
+          <BsLinkedin size="35" />
         </Link>
       </div>
       <div>
@@ -22,7 +23,7 @@ function Socials() {
           target="_blank"
           className="socials-icon"
         >
-          <BsGithub />
+          <BsGithub size="35" />
         </Link>
       </div>
       <div>
@@ -31,7 +32,7 @@ function Socials() {
           target="_blank"
           className="socials-icon"
         >
-          <BsSlack />
+          <BsSlack size="35" />
         </Link>
       </div>
     </>
