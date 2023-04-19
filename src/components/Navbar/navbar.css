@@ -1,0 +1,10 @@
+.navbar-wrapper {
+  max-width: 6rem;
+  margin: 2rem;
+  height: 15rem;
+}
+
+.navbar-wrapper ul {
+  display: flex;
+  flex-direction: column;
+}

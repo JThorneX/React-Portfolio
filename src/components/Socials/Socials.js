@@ -10,17 +10,17 @@ function Socials() {
     <>
       <div>
         <a href="https://linkedin.com" target="_blank" className="socials-icon">
-          <BsLinkedin size="35" />
+          <BsLinkedin size="35" color="cyan" />
         </a>
       </div>
       <div>
         <a href="https://github.com" target="_blank" className="socials-icon">
-          <BsGithub size="35" />
+          <BsGithub size="35" color="cyan" />
         </a>
       </div>
       <div>
         <a href="https://slack.com" target="_blank" className="socials-icon">
-          <BsSlack size="35" />
+          <BsSlack size="35" color="cyan" />
         </a>
       </div>
     </>
