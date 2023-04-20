@@ -1,10 +1,24 @@
 .navbar-wrapper {
+  background-color: var(--light-fade-bg);
   max-width: 6rem;
   margin: 2rem;
-  height: 15rem;
+  height: 35rem;
+  align-items: center;
+}
+
+.nav-icon {
+  color: var(--gold);
 }
 
 .navbar-wrapper ul {
   display: flex;
   flex-direction: column;
+}
+
+.nav-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem;
+  padding-top: 2.7rem;
 }
