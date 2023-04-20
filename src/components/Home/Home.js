@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 import Header from "../Header/Header";
-import Socials from "../Socials/Socials";
 import Footer from "../Footer/Footer";
 
 function Home() {

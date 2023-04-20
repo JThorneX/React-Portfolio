@@ -14,7 +14,7 @@ function Navbar() {
       <div className="navbar-content">
         <ul className="nav navbar">
           <li className="nav-item">
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/home">
               <BiHomeHeart size="45" className="nav-icon" />
             </Link>
           </li>

@@ -9,14 +9,15 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import ModeToggle from "./components/ModeToggle/Mode";
 import Footer from "./components/Footer/Footer";
+import Splash from "./components/Splash/Splash";
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Splash />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
