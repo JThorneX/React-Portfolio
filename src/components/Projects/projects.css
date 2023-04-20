@@ -1,0 +1,60 @@
+.project-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(4%);
+}
+
+.projects-wrapper h1 {
+  margin: 3rem;
+  color: var(--gold);
+}
+
+.current-project-img {
+  margin: 5rem;
+  display: flex;
+  width: 50rem;
+  height: 20rem;
+}
+
+.current-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.front-end-wrapper {
+  display: flex;
+}
+
+.frontend-image {
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20rem 20rem 20rem 20rem;
+  margin: 3rem;
+  object-fit: cover;
+  color: cyan;
+  background-color: blue;
+}
+
+.back-end-wrapper {
+  display: flex;
+}
+
+.backend-image {
+  display: grid;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20rem 20rem 20rem 20rem;
+  margin: 3rem;
+  object-fit: cover;
+  color: cyan;
+  background-color: blue;
+}

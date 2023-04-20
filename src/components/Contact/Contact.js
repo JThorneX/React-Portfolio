@@ -1,6 +1,7 @@
 // import React from "react";
 // import emailjs from "@emailjs/browser";
 // import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 // function Contact() {
 //   const form = useRef();
