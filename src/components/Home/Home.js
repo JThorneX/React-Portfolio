@@ -8,6 +8,7 @@ function Home() {
   return (
     <div>
       <Header />
+      <Navbar />
 
       <div className="container home-container">
         <div className="home-img"></div>

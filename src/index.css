@@ -8,6 +8,10 @@
   --white: rgb(242, 242, 242);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   background-color: var(--dark-bg);
