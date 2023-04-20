@@ -9,6 +9,7 @@
 
 .nav-icon {
   color: var(--gold);
+  cursor: pointer;
 }
 
 .navbar-wrapper ul {

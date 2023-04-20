@@ -10,51 +10,66 @@ function Projects() {
       <Navbar />
       <div className="projects-wrapper">
         <h1>Projects</h1>
-        <div className="current-project-img">
-          <img
-            src={currentproject}
-            alt="current project"
-            className="current-image"
-          />
-        </div>
-
-        <div className="grid">
-          <div className="front-end-wrapper">
-            <h2>Front End Focused</h2>
+        <h2 className="latest-project">Latest Project</h2>
+        <a href="" target="_blank">
+          <div className="current-project-img">
             <img
               src={currentproject}
-              alt="front-end project"
-              className="frontend-image"
-            />
-            <img
-              src={currentproject}
-              alt="front-end project"
-              className="frontend-image"
-            />
-            <img
-              src={currentproject}
-              alt="front-end project"
-              className="frontend-image"
+              alt="current project"
+              className="current-image"
             />
           </div>
+        </a>
 
+        <div className="grid">
+          <h2>Front End Focused</h2>
+          <div className="front-end-wrapper">
+            <a href="https://www.google.com" target="_blank">
+              <img
+                src={currentproject}
+                alt="front-end project"
+                className="frontend-image"
+              />
+            </a>
+            <a href="https://www.cnn.com" target="_blank">
+              <img
+                src={currentproject}
+                alt="front-end project"
+                className="frontend-image"
+              />
+            </a>
+            <a href="https://www.google.com" target="_blank">
+              <img
+                src={currentproject}
+                alt="front-end project"
+                className="frontend-image"
+              />
+            </a>
+          </div>
+
+          <h2>Back End Focused</h2>
           <div className="back-end-wrapper">
-            <h2>Back End Focused</h2>
-            <img
-              src={currentproject}
-              alt="back-end project"
-              className="backend-image"
-            />
-            <img
-              src={currentproject}
-              alt="back-end project"
-              className="backend-image"
-            />
-            <img
-              src={currentproject}
-              alt="back-end project"
-              className="backend-image"
-            />
+            <a href="https://secure-mesa-62807.herokuapp.com/" target="_blank">
+              <img
+                src={currentproject}
+                alt="back-end project"
+                className="backend-image"
+              />
+            </a>
+            <a href="https://www.google.com" target="_blank">
+              <img
+                src={currentproject}
+                alt="back-end project"
+                className="backend-image"
+              />
+            </a>
+            <a href="https://www.google.com" target="_blank">
+              <img
+                src={currentproject}
+                alt="back-end project"
+                className="backend-image"
+              />
+            </a>
           </div>
         </div>
       </div>
