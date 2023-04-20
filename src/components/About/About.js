@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./about.css";
+import Navbar from "../Navbar/Navbar";
 
 function About() {
   return (
-    <div>About</div>
-  )
+    <div className="about-wrapper">
+      <Navbar />
+    </div>
+  );
 }
 
-export default About
+export default About;
