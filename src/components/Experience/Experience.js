@@ -12,24 +12,10 @@ import { SiHandlebarsdotjs } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
+import wireframe1 from "../../assets/images/wireframing1.png";
+import wireframe2 from "../../assets/images/wireframing2.png";
 
 function Experience() {
-  // const skills = [
-  //   { type: "HTML", level: 85 },
-  //   { type: "CSS", level: 70 },
-  //   { type: "React", level: 70 },
-  //   { type: "Node.js", level: 55 },
-  //   { type: "MongoDB", level: 45 },
-  // ];
-
-  // const colors = {
-  //   bar: "cyan",
-  //   title: {
-  //     text: "#abc123",
-  //     background: "#fff",
-  //   },
-  // };
-
   const skillsData = [
     {
       name: "HTML",
@@ -85,6 +71,34 @@ function Experience() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="exp-second">
+        <div className="column-one">
+          <section className="wireframing">
+            <h3>Wireframing</h3>
+            <a
+              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
+              target="_blank"
+            >
+              <img
+                src={wireframe1}
+                alt="wireframe example"
+                className="wireframe-box"
+              />
+            </a>
+            <a
+              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
+              target="_blank"
+            >
+              <img
+                src={wireframe2}
+                alt="wireframe example"
+                className="wireframe-box"
+              />
+            </a>
+          </section>
+        </div>
+        <div className="timeline"></div>
       </div>
       <Footer />
     </div>

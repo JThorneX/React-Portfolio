@@ -1,7 +1,7 @@
 :root {
-  --dark-bg: rgb(24, 24, 24);
+  --dark-bg: #181818;
   --gold: #f4bf0e;
-  --cyan: cyan;
+  --cyan: #00ffff;
   --navy: rgb(3, 18, 39);
   --dark-fade-bg: rgba(24, 24, 24, 0.503);
   --light-fade-bg: rgba(131, 131, 131, 0.486);
@@ -15,4 +15,12 @@ html {
 body {
   height: 100vh;
   background-color: var(--dark-bg);
+}
+
+.exp-second {
+  padding: 15rem;
+}
+
+.timeline {
+  transform: translateX(85%);
 }
