@@ -25,3 +25,7 @@ body {
 .timeline {
   transform: translateX(85%);
 }
+
+.btn {
+  border-radius: 0;
+}

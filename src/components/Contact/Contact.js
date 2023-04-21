@@ -37,21 +37,21 @@ function Contact() {
         </div>
         <div className="contact-wrapper">
           <div className="alt-options">
-            <article className="contact_option">
+            <article className="contact-option">
               <MdOutlineEmail size="50" color="cyan" />
               <h4>Email</h4>
               <a href="mailto:jake.d.d.thorne@gmail.com" target="_blank">
                 Send an Email
               </a>
             </article>
-            <article className="contact_option">
+            <article className="contact-option">
               <BsLinkedin size="50" color="cyan" />
               <h4>Linkedin</h4>
               <a href="https://linkedin.com" target="_blank">
                 Send a Message
               </a>
             </article>
-            <article className="contact_option">
+            <article className="contact-option">
               <BsSlack size="50" color="cyan" />
               <h4>Slack</h4>
               <a
@@ -77,7 +77,7 @@ function Contact() {
                 placeholder="Your Message"
                 required
               />
-              <button type="submit" className="btn">
+              <button type="submit" className="btn contact-page-btn">
                 Send Message
               </button>
             </form>

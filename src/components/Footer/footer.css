@@ -35,7 +35,6 @@
 .contact-btn {
   background-color: var(--light-fade-bg);
   color: var(--cyan);
-  border-radius: 0;
   margin-top: 2rem;
 }
 
