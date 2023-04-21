@@ -1,0 +1,14 @@
+.exp-wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.experience {
+  display: flex;
+}
+
+.bar {
+  width: 30%;
+}
+
