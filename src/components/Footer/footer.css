@@ -39,6 +39,11 @@
   margin-top: 2rem;
 }
 
+.contact-btn:hover {
+  background-color: var(--gold);
+  color: var(--dark-bg);
+}
+
 .cyan-logo-img {
   width: 5rem;
 }

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 import cyanlogo from "../../assets/images/cyan logo jthorne.svg";
 import Socials from "../Socials/Socials";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -23,7 +24,7 @@ function Footer() {
               (window.location = "mailto:jake.d.d.thorne@gmail.com")
             }
           >
-            Contact Me
+            Contact Me <AiOutlineMail />
           </button>
         </Link>
         <div className="cyan-logo">
