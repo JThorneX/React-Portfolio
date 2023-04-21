@@ -6,6 +6,7 @@
   --dark-fade-bg: rgba(24, 24, 24, 0.503);
   --light-fade-bg: rgba(131, 131, 131, 0.486);
   --white: rgb(242, 242, 242);
+  --btnhvr: #006f6f;
 }
 
 html {

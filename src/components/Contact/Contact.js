@@ -5,6 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
+import { BsSlack } from "react-icons/bs";
 
 function Contact() {
   const form = useRef();
@@ -50,6 +51,16 @@ function Contact() {
                 Send a Message
               </a>
             </article>
+            <article className="contact_option">
+              <BsSlack size="50" color="cyan" />
+              <h4>Slack</h4>
+              <a
+                href="https://slack.com/app_redirect?channel=U04M5RMNS7M"
+                target="_blank"
+              >
+                Send a Message
+              </a>
+            </article>
           </div>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -66,7 +77,7 @@ function Contact() {
                 placeholder="Your Message"
                 required
               />
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn">
                 Send Message
               </button>
             </form>

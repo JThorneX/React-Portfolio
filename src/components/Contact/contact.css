@@ -17,7 +17,6 @@
 .contact-text {
   text-align: center;
   color: var(--cyan);
-  
 }
 
 h1 {
@@ -30,6 +29,7 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -47,15 +47,27 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
+  align-items: center;
 }
 
 input,
 textarea {
   margin-top: 1rem;
   padding: 1.5rem;
-  border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--cyan);
   resize: none;
   font-size: 1rem;
+  width: 80%;
+}
+
+.btn {
+  background-color: var(--cyan);
+  color: var(--dark-bg);
+  width: 40%;
+}
+
+.btn:hover {
+  background-color: var(--btnhvr);
+  color: var(--white);
 }
