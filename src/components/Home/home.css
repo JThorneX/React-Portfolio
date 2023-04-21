@@ -1,0 +1,36 @@
+body {
+}
+
+.position-fixed {
+  width: 100%;
+  height: 100vh;
+}
+
+.particles-wrapper {
+  position: absolute;
+  z-index: -1;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 15rem;
+  text-align: center;
+  padding: 3rem;
+  background-color: var(--light-fade-bg);
+  z-index: 9999;
+}
+
+.home-content h1 {
+  
+}
+
