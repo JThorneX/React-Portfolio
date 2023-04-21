@@ -1,0 +1,61 @@
+.all-contact {
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrapper {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  flex-wrap: wrap;
+  margin: 6rem;
+}
+
+.contact-text {
+  text-align: center;
+  color: var(--cyan);
+  
+}
+
+h1 {
+  padding: 3rem;
+}
+
+.alt-options {
+  color: var(--cyan);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+}
+
+.contact_option a {
+  text-decoration: none;
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+input,
+textarea {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--cyan);
+  resize: none;
+  font-size: 1rem;
+}
