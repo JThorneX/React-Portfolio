@@ -22,7 +22,11 @@ function Socials() {
         onMouseOver={({ target }) => (target.style.color = "#f4bf0e")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
-        <a href="https://github.com" target="_blank" className="socials-icon">
+        <a
+          href="https://github.com/JThorneX"
+          target="_blank"
+          className="socials-icon"
+        >
           <BsGithub size="25" color="cyan" />
         </a>
       </div>

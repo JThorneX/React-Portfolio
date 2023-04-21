@@ -3,6 +3,12 @@ import "./projects.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import currentproject from "../../assets/images/miles wallpaper.jpg";
+import frontend1 from "../../assets/images/shall portfolio.png";
+import frontend2 from "../../assets/images/quizfront.png";
+import frontend3 from "../../assets/images/workdayfront.png";
+import backend1 from "../../assets/images/devlore_preview.png";
+import backend2 from "../../assets/images/backend2.png";
+import backend3 from "../../assets/images/backend3.png";
 
 function Projects() {
   return (
@@ -24,23 +30,32 @@ function Projects() {
         <div className="grid">
           <h2>Front End Focused</h2>
           <div className="front-end-wrapper">
-            <a href="https://www.google.com" target="_blank">
+            <a
+              href="https://jthornex.github.io/SHall-React-Portfolio/"
+              target="_blank"
+            >
               <img
-                src={currentproject}
+                src={frontend1}
                 alt="front-end project"
                 className="frontend-image"
               />
             </a>
-            <a href="https://www.cnn.com" target="_blank">
+            <a
+              href="https://jthornex.github.io/04-challenge-bootcamp/"
+              target="_blank"
+            >
               <img
-                src={currentproject}
+                src={frontend2}
                 alt="front-end project"
                 className="frontend-image"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a
+              href="https://jthornex.github.io/05-challenge-DU-bootcamp/"
+              target="_blank"
+            >
               <img
-                src={currentproject}
+                src={frontend3}
                 alt="front-end project"
                 className="frontend-image"
               />
@@ -49,23 +64,29 @@ function Projects() {
 
           <h2>Back End Focused</h2>
           <div className="back-end-wrapper">
+            <a
+              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
+              target="_blank"
+            >
+              <img
+                src={backend2}
+                alt="back-end project"
+                className="backend-image"
+              />
+            </a>
             <a href="https://secure-mesa-62807.herokuapp.com/" target="_blank">
               <img
-                src={currentproject}
+                src={backend1}
                 alt="back-end project"
                 className="backend-image"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a
+              href="https://github.com/JThorneX/challenge-18-social-network-api"
+              target="_blank"
+            >
               <img
-                src={currentproject}
-                alt="back-end project"
-                className="backend-image"
-              />
-            </a>
-            <a href="https://www.google.com" target="_blank">
-              <img
-                src={currentproject}
+                src={backend3}
                 alt="back-end project"
                 className="backend-image"
               />
