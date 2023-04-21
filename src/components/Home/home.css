@@ -1,4 +1,3 @@
-
 .position-fixed {
   width: 100%;
   height: 100vh;
@@ -21,9 +20,8 @@
   display: flex;
   flex-direction: column;
   width: 30rem;
-  height: 12rem;
+  height: 15rem;
   text-align: center;
-  padding: 2rem;
   background-color: var(--light-fade-bg);
   z-index: 9999;
 }
@@ -33,6 +31,5 @@
 }
 
 .home-content h3 {
-    color: rgb(66, 19, 10);
-  }
-  
+  color: rgb(66, 19, 10);
+}
