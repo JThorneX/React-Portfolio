@@ -11,9 +11,11 @@ import { BiPaperPlane } from "react-icons/bi";
 function Navbar() {
   return (
     <div className="navbar-wrapper">
-      <div className="navbar-content">
-        <ul className="nav navbar">
-          <li className="nav-item">
+      <div className="navbar-content" >
+        <ul className="nav navbar" >
+          <li
+            className="nav-item"
+          >
             <Link className="nav-link" to="/home">
               <BiHomeHeart size="45" className="nav-icon" />
             </Link>

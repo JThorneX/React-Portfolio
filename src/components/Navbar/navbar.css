@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.nav-icon:hover {
+  color: var(--cyan);
+}
+
 .navbar-wrapper ul {
   display: flex;
   flex-direction: column;
