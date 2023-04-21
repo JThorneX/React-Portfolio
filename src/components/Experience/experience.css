@@ -1,14 +1,54 @@
-.exp-wrapper {
-  height: 100vh;
+.exp-content h1 {
   width: 100%;
-  position: relative;
+  padding: 3.5rem;
+  text-align: center;
+  color: var(--cyan);
+  filter: drop-shadow(1px 1px 5px var(--cyan));
+}
+
+.exp-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .experience {
-  display: flex;
+  align-items: start;
+  max-width: 40%;
+  transform: translateX(150%);
 }
 
-.bar {
-  width: 30%;
+.skill-bar {
+  margin: 5rem;
+  width: 80%;
 }
 
+.fox-img {
+  margin-left: 12rem;
+  aspect-ratio: 1/1;
+  max-width: 10%;
+  height: 100%;
+}
+
+.fox-image {
+  aspect-ratio: 1/1;
+  max-width: 470%;
+  height: 600%;
+}
+
+.skill-cluster {
+  display: grid;
+  gap: 10%;
+  transform: translateX(23%);
+}
+
+.firstrow-skill {
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.secondrow-skill {
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.icon {
+  margin: 2%;
+}
