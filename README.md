@@ -24,5 +24,4 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 - Auto scroll the page up when using the nav to change pages
 
 ### Known Bugs
-* Text on skill bars not cyan
 * Home and About not selectable from nav on experience page
