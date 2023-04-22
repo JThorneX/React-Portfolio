@@ -15,3 +15,9 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 [For the Experience Skill Bars](https://www.npmjs.com/package/react-skills)
 
 [For Particles](https://github.com/matteobruni/tsparticles)
+
+## To Work On
+* Responsiveness
+* Header
+* Timeline
+* Auto scroll the page up when using the nav to change pages
