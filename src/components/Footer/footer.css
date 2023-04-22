@@ -1,0 +1,48 @@
+.footer-wrapper {
+  background-color: var(--dark-bg);
+  color: var(--cyan);
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: 25% 50% 25%;
+  border-top: 2px solid var(--cyan);
+  max-height: 15rem;
+  justify-content: center;
+}
+
+.footer-socials {
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  gap: 2rem;
+  aspect-ratio: 1/1;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content h1 {
+  padding-bottom: 3rem;
+}
+
+.contact-footer-btn {
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+.contact-btn {
+  background-color: var(--light-fade-bg);
+  color: var(--cyan);
+  margin-top: 2rem;
+}
+
+.contact-btn:hover {
+  background-color: var(--btnhvr);
+  color: var(--white);
+}
+
+.cyan-logo-img {
+  width: 5rem;
+}

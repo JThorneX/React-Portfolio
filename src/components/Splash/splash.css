@@ -1,0 +1,16 @@
+.splash-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--navy);
+  text-align: center;
+  justify-content: center;
+}
+
+.white-logo {
+    padding-bottom: 10rem;
+}
+
+.splash-wrapper h2 {
+  color: var(--white);
+}

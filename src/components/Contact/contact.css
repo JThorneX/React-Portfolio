@@ -1,0 +1,78 @@
+.all-contact {
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrapper {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  flex-wrap: wrap;
+  margin: 6rem;
+}
+
+.contact-text {
+  text-align: center;
+  color: var(--cyan);
+}
+
+.contact-text h1 {
+  padding: 3rem;
+}
+
+.alt-options {
+  color: var(--cyan);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.contact-option a {
+  text-decoration: none;
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.contact-option a:hover {
+  color: var(--btnhvr);
+}
+
+.contact-form {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+input,
+textarea {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background: transparent;
+  border: 2px solid var(--cyan);
+  resize: none;
+  font-size: 1rem;
+  width: 80%;
+  color: var(--cyan);
+}
+
+.contact-page-btn {
+  background-color: var(--cyan);
+  color: var(--dark-bg);
+  width: 40%;
+}
+
+.contact-page-btn:hover {
+  background-color: var(--btnhvr);
+  color: var(--white);
+}

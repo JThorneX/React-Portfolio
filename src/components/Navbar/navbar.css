@@ -1,0 +1,51 @@
+.navbar-wrapper {
+  background-color: var(--light-fade-bg);
+  max-width: 6rem;
+  margin: 2rem;
+  height: 35rem;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-icon {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.nav-icon:hover {
+  color: var(--btnhvr);
+}
+
+.navbar-wrapper ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem;
+  padding-top: 2.7rem;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .nav-item {
+  }
+}
