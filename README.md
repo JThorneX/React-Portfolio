@@ -22,6 +22,7 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 - Header (undecided)
 - Timeline on experience page
 - Auto scroll the page up when using the nav to change pages
+- Light/Dark mode toggle
 
 ### Known Bugs
-* Home and About not selectable from nav on experience page
+- Home and About not selectable from nav on experience page
