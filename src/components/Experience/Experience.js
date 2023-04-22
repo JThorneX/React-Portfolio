@@ -22,6 +22,7 @@ function Experience() {
       level: 85,
       color: "cyan",
       height: 5,
+      label: "cyan",
     },
     {
       name: "CSS",
