@@ -1,6 +1,12 @@
 # React Portfolio
 
+## Description
 A portfolio showcasing my React and CSS skills as well as a selection of the work I've done over the past few months.
+
+## Usage 
+The pages link to view.
+
+Otherwise, npm i to install dependencies then npm start to start server and view in browser on localhost.
 
 ## Credits
 

@@ -23,7 +23,6 @@
   height: 15rem;
   text-align: center;
   background-color: var(--light-fade-bg);
-  z-index: 9999;
 }
 
 .home-content h1 {
@@ -32,4 +31,8 @@
 
 .home-content h3 {
   color: rgb(66, 19, 10);
+}
+
+.black-logo-img {
+  width: 5rem;
 }

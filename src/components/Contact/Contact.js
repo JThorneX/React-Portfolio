@@ -31,9 +31,7 @@ function Contact() {
             As a beginner in this industry, I am always looking for more
             contacts, so feel free to drop me a line!
           </h3>
-          {/* <div className="cyan-logo">
-          <img src={cyanlogo} alt="cyan logo" className="cyan-logo-img" />
-        </div> */}
+          
         </div>
         <div className="contact-wrapper">
           <div className="alt-options">

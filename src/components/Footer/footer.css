@@ -1,10 +1,10 @@
 .footer-wrapper {
   background-color: var(--dark-bg);
-  color: var(--gold);
+  color: var(--cyan);
   display: grid;
   padding: 3rem;
   grid-template-columns: 25% 50% 25%;
-  border-top: 2px solid var(--gold);
+  border-top: 2px solid var(--cyan);
   max-height: 15rem;
   justify-content: center;
 }
@@ -39,8 +39,8 @@
 }
 
 .contact-btn:hover {
-  background-color: var(--gold);
-  color: var(--dark-bg);
+  background-color: var(--btnhvr);
+  color: var(--white);
 }
 
 .cyan-logo-img {

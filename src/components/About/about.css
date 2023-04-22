@@ -17,7 +17,7 @@
 }
 
 .about-content h1 {
-  color: var(--gold);
+  color: var(--cyan);
   padding: 3rem;
   margin-left: 11rem;
   filter: drop-shadow(3px 2px 2px var(--dark-fade-bg));

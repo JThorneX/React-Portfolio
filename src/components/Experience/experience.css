@@ -34,12 +34,17 @@
   aspect-ratio: 1/1;
   max-width: 420%;
   height: 550%;
+  filter: drop-shadow(1px 1px 20px var(--cyan));
 }
 
 .skill-cluster {
   gap: 10%;
-  width: 22rem;
+  width: 30rem;
   transform: translateX(40%);
+}
+
+.bar {
+  background-color: #181818;
 }
 
 .firstrow-skill {
@@ -51,7 +56,7 @@
 }
 
 .icon {
-  margin: 2%;
+  margin: 5%;
 }
 
 .exp-second {
@@ -82,4 +87,11 @@
   width: 40rem;
   height: 15rem;
   cursor: default;
+}
+
+@media screen and (max-width: 600px) {
+  .exp-content, .exp-second {
+    display: flex;
+    flex-direction: column;
+  }
 }

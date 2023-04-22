@@ -10,7 +10,7 @@ function Socials() {
     <>
       <div
         className="hover"
-        onMouseOver={({ target }) => (target.style.color = "#f4bf0e")}
+        onMouseOver={({ target }) => (target.style.color = "#006f6f")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
         <a href="https://linkedin.com" target="_blank" className="socials-icon">
@@ -19,7 +19,7 @@ function Socials() {
       </div>
       <div
         className="hover"
-        onMouseOver={({ target }) => (target.style.color = "#f4bf0e")}
+        onMouseOver={({ target }) => (target.style.color = "#006f6f")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
         <a
@@ -32,7 +32,7 @@ function Socials() {
       </div>
       <div
         className="hover"
-        onMouseOver={({ target }) => (target.style.color = "#f4bf0e")}
+        onMouseOver={({ target }) => (target.style.color = "#006f6f")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
         <a href="https://slack.com" target="_blank" className="socials-icon">

@@ -5,6 +5,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Link } from "react-router-dom";
+import blacklogo from "../../assets/images/black logo jthorne.svg";
 
 function Home() {
   const particlesInit = useCallback(async (engine) => {
@@ -24,6 +25,13 @@ function Home() {
         <div className="container home-container">
           <div className="home-content">
             <h1>Jacob Thorne</h1>
+            <div className="black-logo">
+              <img
+                src={blacklogo}
+                alt="black logo"
+                className="black-logo-img"
+              />
+            </div>
             <h3>Web Dev</h3>
           </div>
         </div>
@@ -50,7 +58,7 @@ function Home() {
                 },
               },
               color: {
-                value: ["#fdcf58", "#757676", "#f27d0c", "#800909", "#f07f13"],
+                value: ["#fdcf58", "#757676", "#f27d0c", "#800909", "#000"],
               },
               opacity: {
                 value: 0.5,

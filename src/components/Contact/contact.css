@@ -19,7 +19,7 @@
   color: var(--cyan);
 }
 
-h1 {
+.contact-text h1 {
   padding: 3rem;
 }
 
@@ -67,7 +67,6 @@ textarea {
 }
 
 .contact-page-btn {
-  
   background-color: var(--cyan);
   color: var(--dark-bg);
   width: 40%;
