@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.d00ec94d.css",
+    "main.js": "/React-Portfolio/static/js/main.c29ace3a.js",
+    "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
+    "static/media/miles wallpaper.jpg": "/React-Portfolio/static/media/miles wallpaper.679f21752f6b40a891e8.jpg",
+    "static/media/eilean castle.png": "/React-Portfolio/static/media/eilean castle.aea1d22db532e40938be.png",
+    "static/media/foxoutline.svg": "/React-Portfolio/static/media/foxoutline.ff648b09b763be91987410dced7c4b49.svg",
+    "static/media/wireframing2.png": "/React-Portfolio/static/media/wireframing2.dbdb2d4f510024ae6329.png",
+    "static/media/backend3.png": "/React-Portfolio/static/media/backend3.c778129d34dd0f73601a.png",
+    "static/media/shall portfolio.png": "/React-Portfolio/static/media/shall portfolio.b91f621bad3a36226f3b.png",
+    "static/media/backend2.png": "/React-Portfolio/static/media/backend2.70ed9d5fddf47b0da3fb.png",
+    "static/media/workdayfront.png": "/React-Portfolio/static/media/workdayfront.95ad6dbcbadc7052c9cb.png",
+    "static/media/quizfront.png": "/React-Portfolio/static/media/quizfront.b58ec48a5258cd0a629c.png",
+    "static/media/wireframing1.png": "/React-Portfolio/static/media/wireframing1.110bd2a65cd2fe656055.png",
+    "static/media/cyan logo jthorne.svg": "/React-Portfolio/static/media/cyan logo jthorne.d8b1df250ccdd862ed6ca3daed56c0f3.svg",
+    "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
+    "static/media/black logo jthorne.svg": "/React-Portfolio/static/media/black logo jthorne.66ef492bbf1efafe697f225c62d4a482.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d00ec94d.css.map": "/React-Portfolio/static/css/main.d00ec94d.css.map",
+    "main.c29ace3a.js.map": "/React-Portfolio/static/js/main.c29ace3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d00ec94d.css",
+    "static/js/main.c29ace3a.js"
+  ]
+}
