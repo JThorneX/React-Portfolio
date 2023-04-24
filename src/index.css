@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;300&display=swap");
+
 :root {
   --dark-bg: #181818;
   --gold: #f4bf0e;
@@ -14,6 +16,7 @@ html {
 }
 
 body {
+  font-family: "Ysabeau", sans-serif;
   height: 100vh;
   background-color: var(--dark-bg);
 }

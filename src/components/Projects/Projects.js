@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import currentproject from "../../assets/images/miles wallpaper.jpg";
+import currentproject from "../../assets/images/latestproject.png";
 import frontend1 from "../../assets/images/shall portfolio.png";
 import frontend2 from "../../assets/images/quizfront.png";
 import frontend3 from "../../assets/images/workdayfront.png";
