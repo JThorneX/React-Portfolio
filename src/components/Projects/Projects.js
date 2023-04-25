@@ -25,6 +25,9 @@ function Projects() {
               className="current-image"
             />
           </div>
+          <a href="" target="_blank">
+            GitHub Repo
+          </a>
         </a>
 
         <div className="grid">
@@ -39,6 +42,9 @@ function Projects() {
                 alt="front-end project"
                 className="frontend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
             <a
               href="https://jthornex.github.io/04-challenge-bootcamp/"
@@ -49,6 +55,9 @@ function Projects() {
                 alt="front-end project"
                 className="frontend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
             <a
               href="https://jthornex.github.io/05-challenge-DU-bootcamp/"
@@ -59,6 +68,9 @@ function Projects() {
                 alt="front-end project"
                 className="frontend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
           </div>
 
@@ -73,6 +85,9 @@ function Projects() {
                 alt="back-end project"
                 className="backend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
             <a href="https://secure-mesa-62807.herokuapp.com/" target="_blank">
               <img
@@ -80,6 +95,9 @@ function Projects() {
                 alt="back-end project"
                 className="backend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
             <a
               href="https://github.com/JThorneX/challenge-18-social-network-api"
@@ -90,6 +108,9 @@ function Projects() {
                 alt="back-end project"
                 className="backend-image"
               />
+              <a href="" target="_blank">
+                GitHub Repo
+              </a>
             </a>
           </div>
         </div>
