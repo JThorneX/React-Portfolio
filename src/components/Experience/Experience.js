@@ -14,6 +14,12 @@ import { SiMongodb } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import wireframe1 from "../../assets/images/wireframing1.png";
 import wireframe2 from "../../assets/images/wireframing2.png";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { SiJameson } from "react-icons/si";
 
 function Experience() {
   const skillsData = [
@@ -74,6 +80,79 @@ function Experience() {
         </div>
       </div>
       <div className="exp-second">
+        <div className="timeline">
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="2016-2020"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<SiJameson />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card">
+                BA in History
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card">
+                3.46 GPA
+              </h4>
+              <p className="little-text-card">
+                Metropolitan State University of Denver
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              date="May 2021-Nov 2022"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<SiJameson />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card">
+                Distribution Coordinator
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card">
+                Parker, CO
+              </h4>
+              <p className="little-text-card">
+                Top 5% auditor processing medical kits with a 95% non-error rate
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              date="Feb-May 2023"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<SiJameson />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card">
+                University of Denver Full Stack Developer Coding Boot Camp
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card">
+                Denver, CO
+              </h4>
+              <p className="little-text-card">
+                Collaborated on 3 projects in groups of classmates, maintained a
+                96% average on assignments
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              date="2023"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<SiJameson />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card">
+                Job Hunting
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card">
+                Littleton, CO
+              </h4>
+              <p className="little-text-card">
+                Looking for work as a frontend/React developer.
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
         <div className="column-one">
           <section className="wireframing">
             <h3>Wireframing</h3>
@@ -99,7 +178,6 @@ function Experience() {
             </a>
           </section>
         </div>
-        <div className="timeline"></div>
       </div>
       <Footer />
     </div>

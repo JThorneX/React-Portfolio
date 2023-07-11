@@ -4,8 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Link } from "react-router-dom";
-import blacklogo from "../../assets/images/black logo jthorne.svg";
+import whitelogo from "../../assets/images/white logo jthorne.svg";
 
 function Home() {
   const particlesInit = useCallback(async (engine) => {
@@ -27,9 +26,9 @@ function Home() {
             <h1>Jacob Thorne</h1>
             <div className="black-logo">
               <img
-                src={blacklogo}
-                alt="black logo"
-                className="black-logo-img"
+                src={whitelogo}
+                alt="white logo"
+                className="white-logo-img"
               />
             </div>
             <h3>Web Dev</h3>
@@ -44,7 +43,7 @@ function Home() {
           options={{
             background: {
               color: {
-                value: "#0d47a1",
+                value: "#003840",
               },
             },
             autoplay: true,
@@ -58,7 +57,7 @@ function Home() {
                 },
               },
               color: {
-                value: ["#fdcf58", "#757676", "#f27d0c", "#800909", "#000"],
+                value: ["#cf1fae", "#757676", "#864699", "#cff9fc", "#000"],
               },
               opacity: {
                 value: 0.5,
@@ -84,7 +83,7 @@ function Home() {
               },
             },
             background: {
-              image: "radial-gradient(#4a0000, #000)",
+              image: "radial-gradient(#005966, #000)",
             },
           }}
         />

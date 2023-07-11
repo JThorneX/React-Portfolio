@@ -31,7 +31,6 @@ function Contact() {
             As a beginner in this industry, I am always looking for more
             contacts, so feel free to drop me a line!
           </h3>
-          
         </div>
         <div className="contact-wrapper">
           <div className="alt-options">
@@ -39,24 +38,27 @@ function Contact() {
               <MdOutlineEmail size="50" color="cyan" />
               <h4>Email</h4>
               <a href="mailto:jake.d.d.thorne@gmail.com" target="_blank">
-                Send an Email
+                Send An Email
               </a>
             </article>
             <article className="contact-option">
               <BsLinkedin size="50" color="cyan" />
               <h4>Linkedin</h4>
-              <a href="https://linkedin.com" target="_blank">
-                Send a Message
+              <a
+                href="https://www.linkedin.com/in/jake-d-d-thorne/"
+                target="_blank"
+              >
+                Connect With Me
               </a>
             </article>
             <article className="contact-option">
               <BsSlack size="50" color="cyan" />
               <h4>Slack</h4>
               <a
-                href="https://slack.com/app_redirect?channel=U04M5RMNS7M"
+                href="https://join.slack.com/t/jthorneworkspace/shared_invite/zt-1z5dbht81-jOO7yQ08kzYTjR21HgYhGA"
                 target="_blank"
               >
-                Send a Message
+                Join My Workspace
               </a>
             </article>
           </div>
