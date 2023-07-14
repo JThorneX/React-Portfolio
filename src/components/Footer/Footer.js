@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <div className="footer-content">
         <h1>JThorne</h1>
-        <h2>{/* <Coder/> */}</h2>
+        <p>{/* <Coder /> */}</p>
         <h5>&copy; All rights reserved.</h5>
       </div>
       <div className="contact-footer-btn">
