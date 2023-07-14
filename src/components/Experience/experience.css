@@ -69,15 +69,19 @@
 .column-one {
   position: absolute;
   display: flex;
-  width: 30%;
+  width: 40%;
 }
 
 .timeline {
   display: flex;
-  grid-template-columns: 100%;
+  margin-left: 5rem;
+}
+
+.big-text-card {
 }
 
 .wireframing {
+  padding-top: 10rem;
   text-align: center;
 }
 

@@ -22,11 +22,11 @@ body {
 }
 
 .exp-second {
-  padding: 15rem;
+  padding: 10rem;
 }
 
 .timeline {
-  transform: translateX(85%);
+  transform: translateX(100%);
 }
 
 .btn {

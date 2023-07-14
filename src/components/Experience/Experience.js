@@ -84,12 +84,12 @@ function Experience() {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work times"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "#14515c", color: "#fff" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
               date="2016-2020"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "#14515c", color: "#fff" }}
               icon={<SiJameson />}
             >
               <h3 className="vertical-timeline-element-title big-text-card">
