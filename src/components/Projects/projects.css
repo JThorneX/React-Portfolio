@@ -1,5 +1,5 @@
 .project-wrapper {
-  min-height: 1750px;
+  min-height: 1900px;
   width: 100vw;
 }
 
@@ -10,12 +10,28 @@
 }
 
 .projects-wrapper h1 {
-  margin: 3rem;
+  margin-top: 3rem;
   color: var(--cyan);
 }
 
-.current-project-img {
-  margin: 5rem;
+.project-small {
+  padding-top: 3rem;
+  text-align: center;
+  color: var(--cyan);
+}
+
+.projects-small h2 {
+  padding-top: 4rem;
+  text-align: center;
+  color: var(--cyan);
+}
+
+.current-project {
+  color: var(--cyan);
+}
+
+.latest-project-img {
+  margin: 2rem;
   display: flex;
   width: 50rem;
   height: 20rem;
@@ -27,11 +43,11 @@
   margin: 0;
 }
 
-.current-project-img:hover {
+.latest-project-img:hover {
   filter: drop-shadow(1px 1px 20px var(--cyan));
 }
 
-.current-image {
+.latest-image {
   display: flex;
   width: 100%;
   height: 100%;
@@ -54,7 +70,7 @@ a {
   border-radius: 20rem 20rem 20rem 20rem;
   margin: 3rem;
   object-fit: cover;
-  border: 2px solid cyan;
+  border: 2px solid var(--cyan);
   cursor: pointer;
 }
 
@@ -71,6 +87,15 @@ a {
   cursor: default;
 }
 
+.latest-project {
+  text-align: center;
+  color: var(--cyan);
+}
+
+.latest-project h2 {
+  padding-bottom: 2rem;
+}
+
 .backend-image {
   display: flex;
   width: 20rem;
@@ -78,7 +103,7 @@ a {
   border-radius: 20rem 20rem 20rem 20rem;
   margin: 3rem;
   object-fit: cover;
-  border: 2px solid cyan;
+  border: 2px solid var(--cyan);
   cursor: pointer;
 }
 
@@ -88,9 +113,4 @@ a {
 
 .projects-wrapper h1 {
   padding-bottom: 3rem;
-}
-
-h2 {
-  color: var(--cyan);
-  text-align: center;
 }
