@@ -1,4 +1,5 @@
 .exp-wrapper {
+  min-height: 2460px;
   background: rgb(179, 104, 13);
   background: linear-gradient(
     150deg,

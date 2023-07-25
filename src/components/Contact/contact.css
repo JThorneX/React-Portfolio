@@ -1,6 +1,6 @@
 .all-contact {
   width: 100vw;
-  height: 100vh;
+  min-height: 880px;
   place-items: center;
   display: flex;
   flex-direction: column;

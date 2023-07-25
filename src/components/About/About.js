@@ -2,14 +2,15 @@ import React from "react";
 import "./about.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import aboutmebg from "../../assets/images/about background.png";
 
 function About() {
   return (
     <div className="about-wrapper">
       <Navbar />
       <div className="about-content">
-        <h1>About Me</h1>
+        <div className="about-me-header">
+          <h1>About Me</h1>
+        </div>
         <div className="about-me-text">
           <p>
             Hi! My name is Jacob Thorne and I am from Denver, Colorado. I have
@@ -37,10 +38,6 @@ function About() {
             <button className="resumeDownload">Certificate</button>
           </div>
         </div>
-      </div>
-
-      <div className="about-bg">
-        <img src={aboutmebg} alt="scotland background" className="about-img" />
       </div>
       <Footer />
     </div>
