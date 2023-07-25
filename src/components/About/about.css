@@ -24,7 +24,7 @@
   filter: drop-shadow(3px 2px 1px var(--dark-fade-bg));
 }
 
-.content-about {
+.about-me-text {
   width: 100%;
   text-align: center;
   position: fixed;
@@ -33,7 +33,7 @@
   background-color: var(--dark-fade-bg);
 }
 
-.content-about p {
+.about-me-text p {
   color: rgb(0, 255, 255);
   filter: drop-shadow(3px 2px 2px var(--dark-bg));
 }

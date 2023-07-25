@@ -10,7 +10,7 @@ function About() {
       <Navbar />
       <div className="about-content">
         <h1>About Me</h1>
-        <div className="content-about">
+        <div className="about-me-text">
           <p>
             Hi! My name is Jacob Thorne and I am from Denver, Colorado. I have
             recently made the journey into being a web developer through the
