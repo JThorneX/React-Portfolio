@@ -111,7 +111,7 @@ function Experience() {
               className="vertical-timeline-element--work times"
               contentStyle={{ background: "#16a2b5", color: "#000" }}
               contentArrowStyle={{
-                borderRight: "7px solid  #14515c",
+                borderRight: "7px solid  #16a2b5",
               }}
               date="May 2021-Nov 2022"
               iconStyle={{ background: "#f48b31", color: "#fff" }}
@@ -152,7 +152,7 @@ function Experience() {
               className="vertical-timeline-element--work times"
               contentStyle={{ background: "#16a2b5", color: "#000" }}
               contentArrowStyle={{
-                borderRight: "7px solid  #14515c",
+                borderRight: "7px solid  #16a2b5",
               }}
               date="2023"
               iconStyle={{ background: "#f48b31", color: "#fff" }}

@@ -1,3 +1,13 @@
+.exp-wrapper {
+  background: rgb(179, 104, 13);
+  background: linear-gradient(
+    150deg,
+    rgba(179, 104, 13, 1) 0%,
+    rgba(54, 109, 134, 1) 66%,
+    rgba(1, 139, 167, 1) 100%
+  );
+}
+
 .exp-content h1 {
   width: 100%;
   max-width: 600px;
