@@ -1,9 +1,16 @@
 .exp-content h1 {
   width: 100%;
+  max-width: 600px;
   padding: 3.5rem;
   text-align: center;
   color: var(--cyan);
   filter: drop-shadow(1px 1px 5px var(--cyan));
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .exp-content {
@@ -86,6 +93,18 @@
 .vertical-timeline-element-date {
   margin: 0.5rem;
   color: cyan;
+}
+
+.big-text-card-l,
+.sub-text-card-l,
+.little-text-card-l {
+  filter: drop-shadow(0px 0px 2px var(--dark-fade-bg));
+}
+
+.big-text-card-d,
+.sub-text-card-d,
+.little-card-text-d {
+  filter: drop-shadow(0px 0px 3px var(--white));
 }
 
 .big-text-card-d {

@@ -1,10 +1,11 @@
 .about-wrapper {
-  height: 100vh;
+  height: 90%;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
-.scotland-img {
+.about-img {
   width: 100%;
 }
 
@@ -20,7 +21,7 @@
   color: var(--cyan);
   padding: 3rem;
   margin-left: 11rem;
-  filter: drop-shadow(3px 2px 2px var(--dark-fade-bg));
+  filter: drop-shadow(3px 2px 1px var(--dark-fade-bg));
 }
 
 .content-about {
@@ -33,6 +34,18 @@
 }
 
 .content-about p {
-  color: cyan;
+  color: rgb(0, 255, 255);
   filter: drop-shadow(3px 2px 2px var(--dark-bg));
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.resumeDownload {
+  width: 10rem;
+  left: 50%;
+  transform: translateX(115%);
 }

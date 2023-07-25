@@ -5,15 +5,16 @@
   --gold: #f4bf0e;
   --cyan: #00ffff;
   --navy: rgb(5, 37, 51);
-  --dark-fade-bg: rgba(24, 24, 24, 0.503);
+  --dark-fade-bg: rgba(24, 24, 24, 0.643);
   --charcoal: rgb(40, 38, 38);
   --light-fade-bg: rgba(131, 131, 131, 0.486);
-  --white: rgb(242, 242, 242);
+  --white: rgb(231, 231, 231);
   --btnhvr: #006f6f;
 }
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {

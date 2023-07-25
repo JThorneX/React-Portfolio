@@ -14,40 +14,43 @@ import { SiMongodb } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import wireframe1 from "../../assets/images/wireframing1.png";
 import wireframe2 from "../../assets/images/wireframing2.png";
+import wireframe3 from "../../assets/images/wireframing3.png";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { SiJameson } from "react-icons/si";
+import { VscSearch } from "react-icons/vsc";
+import { MdOutlineSchool, MdSchool } from "react-icons/md";
+import { TfiPackage } from "react-icons/tfi";
 
 function Experience() {
   const skillsData = [
     {
       name: "HTML",
-      level: 85,
+      level: 90,
       color: "cyan",
       height: 5,
       label: "cyan",
     },
     {
       name: "CSS",
-      level: 70,
+      level: 80,
       color: "cyan",
     },
     {
       name: "React",
-      level: 70,
+      level: 80,
+      color: "cyan",
+    },
+    {
+      name: "Bootstrap",
+      level: 75,
       color: "cyan",
     },
     {
       name: "Node.js",
-      level: 55,
-      color: "cyan",
-    },
-    {
-      name: "MySQL",
-      level: 45,
+      level: 65,
       color: "cyan",
     },
   ];
@@ -55,7 +58,9 @@ function Experience() {
     <div className="exp-wrapper">
       <Navbar />
       <div className="exp-content">
-        <h1>Experience & Skills</h1>
+        <div className="experience-header">
+          <h1>Experience & Skills</h1>
+        </div>
         <div className="fox-img">
           <img src={fox} alt="fox with shades" className="fox-image" />
         </div>
@@ -84,13 +89,13 @@ function Experience() {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work times"
-              contentStyle={{ background: "#14515c", color: "#fff" }}
+              contentStyle={{ background: "#f48b31", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid  #14515c",
+                borderRight: "7px solid  #f48b31",
               }}
               date="2016-2020"
               iconStyle={{ background: "#16a2b5", color: "#fff" }}
-              icon={<SiJameson />}
+              icon={<MdOutlineSchool />}
             >
               <h3 className="vertical-timeline-element-title big-text-card-l">
                 BA in History
@@ -109,8 +114,8 @@ function Experience() {
                 borderRight: "7px solid  #14515c",
               }}
               date="May 2021-Nov 2022"
-              iconStyle={{ background: "#14515c", color: "#fff" }}
-              icon={<SiJameson />}
+              iconStyle={{ background: "#f48b31", color: "#fff" }}
+              icon={<TfiPackage />}
             >
               <h3 className="vertical-timeline-element-title big-text-card-d">
                 Distribution Coordinator
@@ -124,13 +129,13 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work times"
-              contentStyle={{ background: "#14515c", color: "#fff" }}
+              contentStyle={{ background: "#f48b31", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid  #14515c",
+                borderRight: "7px solid  #f48b31",
               }}
               date="Feb-May 2023"
               iconStyle={{ background: "#16a2b5", color: "#fff" }}
-              icon={<SiJameson />}
+              icon={<MdSchool />}
             >
               <h3 className="vertical-timeline-element-title big-text-card-l">
                 University of Denver Full Stack Developer Coding Boot Camp
@@ -150,8 +155,8 @@ function Experience() {
                 borderRight: "7px solid  #14515c",
               }}
               date="2023"
-              iconStyle={{ background: "#14515c", color: "#fff" }}
-              icon={<SiJameson />}
+              iconStyle={{ background: "#f48b31", color: "#fff" }}
+              icon={<VscSearch />}
             >
               <h3 className="vertical-timeline-element-title big-text-card-d">
                 Job Hunting
@@ -168,32 +173,23 @@ function Experience() {
         <div className="column-one">
           <section className="wireframing">
             <h3>Wireframing</h3>
-            <a
-              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
-              target="_blank"
-            >
+            <a>
               <img
                 src={wireframe1}
                 alt="wireframe example"
                 className="wireframe-box"
               />
             </a>
-            <a
-              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
-              target="_blank"
-            >
+            <a>
               <img
                 src={wireframe2}
                 alt="wireframe example"
                 className="wireframe-box"
               />
             </a>
-            <a
-              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
-              target="_blank"
-            >
+            <a>
               <img
-                src={wireframe2}
+                src={wireframe3}
                 alt="wireframe example"
                 className="wireframe-box"
               />
