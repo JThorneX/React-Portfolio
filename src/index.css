@@ -4,15 +4,17 @@
   --dark-bg: #181818;
   --gold: #f4bf0e;
   --cyan: #00ffff;
-  --navy: rgb(3, 18, 39);
-  --dark-fade-bg: rgba(24, 24, 24, 0.503);
+  --navy: rgb(8, 60, 78);
+  --dark-fade-bg: rgba(24, 24, 24, 0.643);
+  --charcoal: rgb(40, 38, 38);
   --light-fade-bg: rgba(131, 131, 131, 0.486);
-  --white: rgb(242, 242, 242);
+  --white: rgb(231, 231, 231);
   --btnhvr: #006f6f;
 }
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -22,11 +24,11 @@ body {
 }
 
 .exp-second {
-  padding: 15rem;
+  padding: 10rem;
 }
 
 .timeline {
-  transform: translateX(85%);
+  transform: translateX(100%);
 }
 
 .btn {

@@ -3,6 +3,7 @@
   color: var(--cyan);
   display: grid;
   padding: 3rem;
+  margin-top: auto;
   grid-template-columns: 25% 50% 25%;
   border-top: 2px solid var(--cyan);
   max-height: 15rem;

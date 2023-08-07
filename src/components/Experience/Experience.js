@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import fox from "../../assets/images/foxoutline.svg";
 import { SkillBars } from "react-skills";
 import { GrNode } from "react-icons/gr";
-import { SiJquery } from "react-icons/si";
+import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { SiHandlebarsdotjs } from "react-icons/si";
@@ -14,34 +14,43 @@ import { SiMongodb } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import wireframe1 from "../../assets/images/wireframing1.png";
 import wireframe2 from "../../assets/images/wireframing2.png";
+import wireframe3 from "../../assets/images/wireframing3.png";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { VscSearch } from "react-icons/vsc";
+import { MdOutlineSchool, MdSchool } from "react-icons/md";
+import { TfiPackage } from "react-icons/tfi";
 
 function Experience() {
   const skillsData = [
     {
       name: "HTML",
-      level: 85,
+      level: 90,
       color: "cyan",
       height: 5,
       label: "cyan",
     },
     {
       name: "CSS",
-      level: 70,
+      level: 80,
       color: "cyan",
     },
     {
       name: "React",
-      level: 70,
+      level: 80,
+      color: "cyan",
+    },
+    {
+      name: "Bootstrap",
+      level: 75,
       color: "cyan",
     },
     {
       name: "Node.js",
-      level: 55,
-      color: "cyan",
-    },
-    {
-      name: "MySQL",
-      level: 45,
+      level: 65,
       color: "cyan",
     },
   ];
@@ -49,7 +58,9 @@ function Experience() {
     <div className="exp-wrapper">
       <Navbar />
       <div className="exp-content">
-        <h1>Experience & Skills</h1>
+        <div className="experience-header">
+          <h1>Experience & Skills</h1>
+        </div>
         <div className="fox-img">
           <img src={fox} alt="fox with shades" className="fox-image" />
         </div>
@@ -60,7 +71,7 @@ function Experience() {
           <div className="skill-cluster">
             <div className-="firstrow-skill">
               <GrNode className="icon" color="cyan" size="70" />
-              <SiJquery className="icon" color="cyan" size="70" />
+              <SiReact className="icon" color="cyan" size="70" />
               <SiBootstrap className="icon" color="cyan" size="70" />
               <BsGit className="icon" color="cyan" size="70" />
             </div>
@@ -74,32 +85,117 @@ function Experience() {
         </div>
       </div>
       <div className="exp-second">
+        <div className="timeline">
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              contentStyle={{ background: "#f48b31", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  #f48b31",
+              }}
+              date="2016-2020"
+              iconStyle={{ background: "#16a2b5", color: "#fff" }}
+              icon={<MdOutlineSchool />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card-l">
+                BA in History
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card-l">
+                3.46 GPA
+              </h4>
+              <p className="little-text-card-l">
+                Metropolitan State University of Denver
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              contentStyle={{ background: "#16a2b5", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  #16a2b5",
+              }}
+              date="May 2021-Nov 2022"
+              iconStyle={{ background: "#f48b31", color: "#fff" }}
+              icon={<TfiPackage />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card-d">
+                Distribution Coordinator
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card-d">
+                Parker, CO
+              </h4>
+              <p className="little-text-card-d">
+                Top 5% auditor processing medical kits with a 95% non-error rate
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              contentStyle={{ background: "#f48b31", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  #f48b31",
+              }}
+              date="Feb-May 2023"
+              iconStyle={{ background: "#16a2b5", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card-l">
+                University of Denver Full Stack Developer Coding Boot Camp
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card-l">
+                Denver, CO
+              </h4>
+              <p className="little-text-card-l">
+                Collaborated on 3 projects in groups of classmates, maintained a
+                96% average on assignments
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work times"
+              contentStyle={{ background: "#16a2b5", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  #16a2b5",
+              }}
+              date="2023"
+              iconStyle={{ background: "#f48b31", color: "#fff" }}
+              icon={<VscSearch />}
+            >
+              <h3 className="vertical-timeline-element-title big-text-card-d">
+                Job Hunting
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle sub-text-card-d">
+                Littleton, CO
+              </h4>
+              <p className="little-text-card-d">
+                Looking for work as a frontend/React developer.
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
         <div className="column-one">
           <section className="wireframing">
             <h3>Wireframing</h3>
-            <a
-              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
-              target="_blank"
-            >
+            <a>
               <img
                 src={wireframe1}
                 alt="wireframe example"
                 className="wireframe-box"
               />
             </a>
-            <a
-              href="https://github.com/JThorneX/challenge-13-e-commerce-back-end"
-              target="_blank"
-            >
+            <a>
               <img
                 src={wireframe2}
                 alt="wireframe example"
                 className="wireframe-box"
               />
             </a>
+            <a>
+              <img
+                src={wireframe3}
+                alt="wireframe example"
+                className="wireframe-box"
+              />
+            </a>
           </section>
         </div>
-        <div className="timeline"></div>
       </div>
       <Footer />
     </div>

@@ -1,6 +1,6 @@
 {
   "homepage": "https://jthornex.github.io/React-Portfolio/",
-  "name": "react-portfolio",
+  "name": "jthorne_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
     "react-scripts": "5.0.1",
     "react-skills": "^1.27.0",
     "react-tsparticles": "^2.9.3",
+    "react-vertical-timeline-component": "^3.6.0",
     "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },

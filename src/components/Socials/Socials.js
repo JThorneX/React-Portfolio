@@ -1,6 +1,5 @@
 import React from "react";
 import "./socials.css";
-import { Link } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsSlack } from "react-icons/bs";
@@ -13,7 +12,11 @@ function Socials() {
         onMouseOver={({ target }) => (target.style.color = "#006f6f")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
-        <a href="https://linkedin.com" target="_blank" className="socials-icon">
+        <a
+          href="https://www.linkedin.com/in/jake-d-d-thorne/"
+          target="_blank"
+          className="socials-icon"
+        >
           <BsLinkedin size="25" color="cyan" />
         </a>
       </div>
@@ -35,7 +38,11 @@ function Socials() {
         onMouseOver={({ target }) => (target.style.color = "#006f6f")}
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
-        <a href="https://slack.com" target="_blank" className="socials-icon">
+        <a
+          href="https://join.slack.com/t/jthorneworkspace/shared_invite/zt-1z5dbht81-jOO7yQ08kzYTjR21HgYhGA"
+          target="_blank"
+          className="socials-icon"
+        >
           <BsSlack size="25" color="cyan" />
         </a>
       </div>

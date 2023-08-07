@@ -1,9 +1,15 @@
 .all-contact {
   width: 100vw;
-  height: 100vh;
+  min-height: 880px;
   place-items: center;
   display: flex;
   flex-direction: column;
+  background: rgb(0, 44, 45);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 20, 20, 1) 0%,
+    rgba(30, 159, 158, 1) 100%
+  );
 }
 
 .contact-wrapper {
@@ -12,11 +18,12 @@
   grid-template-columns: 30% 58%;
   flex-wrap: wrap;
   margin: 6rem;
+  color: var(--dark-bg);
 }
 
 .contact-text {
   text-align: center;
-  color: var(--cyan);
+  color: var(--dark-bg);
 }
 
 .contact-text h1 {
