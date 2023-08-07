@@ -20,9 +20,11 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 
 - Responsiveness
 - Header (undecided)
-- Timeline on experience page
-- Auto scroll the page up when using the nav to change pages
+- ~~Timeline on experience page~~
+- ~~Auto scroll the page up when using the nav to change pages~~
 
 ### Known Bugs
-* Text on skill bars not cyan
-* Home and About not selectable from nav on experience page
+
+- ~~Text on skill bars not cyan~~
+- ~~Home and About not selectable from nav on experience page~~
+- ~~Footer overlapping body content when window is shortened~~

@@ -6,11 +6,13 @@ import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Splash from "./components/Splash/Splash";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/React-Portfolio/" element={<Splash />} />
           <Route path="/home" element={<Home />} />

@@ -25,13 +25,9 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              // activeStyle={{ color: "#de92b8" }}
               className="nav-link"
               exact
               to="/about"
-              // style={({ isActive }) => ({
-              //   color: isActive ? "#de92b8" : "blue",
-              // })}
             >
               <BiCommentError size="45" className="nav-icon" />
             </NavLink>
