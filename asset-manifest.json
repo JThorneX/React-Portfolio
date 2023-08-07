@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b9829a79.css",
-    "main.js": "/React-Portfolio/static/js/main.875574b6.js",
+    "main.css": "/React-Portfolio/static/css/main.c677d9c5.css",
+    "main.js": "/React-Portfolio/static/js/main.a5aaa8df.js",
+    "static/media/JThorne Resume July-2023-1.pdf": "/React-Portfolio/static/media/JThorne Resume July-2023-1.09449da14510ba2faa23.pdf",
     "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
+    "static/media/certificateDUbootcamp.pdf": "/React-Portfolio/static/media/certificateDUbootcamp.46a73da01e72446af8dc.pdf",
     "static/media/latestproject.png": "/React-Portfolio/static/media/latestproject.9418f28a4ff0e7bee527.png",
-    "static/media/eilean castle.png": "/React-Portfolio/static/media/eilean castle.aea1d22db532e40938be.png",
     "static/media/foxoutline.svg": "/React-Portfolio/static/media/foxoutline.ff648b09b763be91987410dced7c4b49.svg",
     "static/media/wireframing2.png": "/React-Portfolio/static/media/wireframing2.dbdb2d4f510024ae6329.png",
+    "static/media/currentproject.png": "/React-Portfolio/static/media/currentproject.5cdb526dbaf526c2eeb1.png",
     "static/media/backend3.png": "/React-Portfolio/static/media/backend3.c778129d34dd0f73601a.png",
     "static/media/shall portfolio.png": "/React-Portfolio/static/media/shall portfolio.b91f621bad3a36226f3b.png",
     "static/media/backend2.png": "/React-Portfolio/static/media/backend2.70ed9d5fddf47b0da3fb.png",
     "static/media/workdayfront.png": "/React-Portfolio/static/media/workdayfront.95ad6dbcbadc7052c9cb.png",
     "static/media/quizfront.png": "/React-Portfolio/static/media/quizfront.b58ec48a5258cd0a629c.png",
+    "static/media/wireframing3.png": "/React-Portfolio/static/media/wireframing3.f1dc5b4a78c18b848354.png",
     "static/media/wireframing1.png": "/React-Portfolio/static/media/wireframing1.110bd2a65cd2fe656055.png",
+    "static/media/about background.png": "/React-Portfolio/static/media/about background.ceb98369529d3bc4dcfa.png",
     "static/media/cyan logo jthorne.svg": "/React-Portfolio/static/media/cyan logo jthorne.d8b1df250ccdd862ed6ca3daed56c0f3.svg",
     "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
-    "static/media/black logo jthorne.svg": "/React-Portfolio/static/media/black logo jthorne.66ef492bbf1efafe697f225c62d4a482.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.b9829a79.css.map": "/React-Portfolio/static/css/main.b9829a79.css.map",
-    "main.875574b6.js.map": "/React-Portfolio/static/js/main.875574b6.js.map"
+    "main.c677d9c5.css.map": "/React-Portfolio/static/css/main.c677d9c5.css.map",
+    "main.a5aaa8df.js.map": "/React-Portfolio/static/js/main.a5aaa8df.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9829a79.css",
-    "static/js/main.875574b6.js"
+    "static/css/main.c677d9c5.css",
+    "static/js/main.a5aaa8df.js"
   ]
 }
