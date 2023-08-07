@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import fox from "../../assets/images/foxoutline.svg";
 import { SkillBars } from "react-skills";
 import { GrNode } from "react-icons/gr";
-import { SiJquery } from "react-icons/si";
+import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { SiHandlebarsdotjs } from "react-icons/si";
@@ -71,7 +71,7 @@ function Experience() {
           <div className="skill-cluster">
             <div className-="firstrow-skill">
               <GrNode className="icon" color="cyan" size="70" />
-              <SiJquery className="icon" color="cyan" size="70" />
+              <SiReact className="icon" color="cyan" size="70" />
               <SiBootstrap className="icon" color="cyan" size="70" />
               <BsGit className="icon" color="cyan" size="70" />
             </div>

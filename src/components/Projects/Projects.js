@@ -2,7 +2,8 @@ import React from "react";
 import "./projects.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import currentproject from "../../assets/images/latestproject.png";
+import latestproject from "../../assets/images/latestproject.png";
+import currentproject from "../../assets/images/currentproject.png";
 import frontend1 from "../../assets/images/shall portfolio.png";
 import frontend2 from "../../assets/images/quizfront.png";
 import frontend3 from "../../assets/images/workdayfront.png";
@@ -20,13 +21,13 @@ function Projects() {
           <h2>Working On...</h2>
           <h4>Gatsby/React Blog</h4>
           <a href="https://github.com/JThorneX/gatsby-blog" target="_blank">
-            {/* <div className="current-project-img">
+            <div className="current-project-img">
               <img
                 src={currentproject}
                 alt="current project"
                 className="current-image"
               />
-            </div> */}
+            </div>
           </a>
         </div>
 
@@ -36,7 +37,7 @@ function Projects() {
           <a href="https://github.com/JamesGeneser/Bird-Nerd" target="_blank">
             <div className="latest-project-img">
               <img
-                src={currentproject}
+                src={latestproject}
                 alt="latest project"
                 className="latest-image"
               />
