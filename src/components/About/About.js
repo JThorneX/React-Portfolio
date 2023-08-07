@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import resume from "../../assets/JThorne Resume July-2023-1.pdf";
 
 function About() {
   return (
@@ -34,7 +35,11 @@ function About() {
             games, baking, or playing with my dogs.
           </p>
           <div className="buttons">
-            <button className="resumeDownload">Resume</button>
+            <button className="resumeDownload">
+              <a href={resume} download>
+                Resume
+              </a>
+            </button>
             <button className="resumeDownload">Certificate</button>
           </div>
         </div>
