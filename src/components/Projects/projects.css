@@ -96,7 +96,8 @@ a {
   color: var(--cyan);
 }
 
-.latest-project h2 {
+.latest-project h2,
+.current-project h2 {
   padding-bottom: 2rem;
 }
 

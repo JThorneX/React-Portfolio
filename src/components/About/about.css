@@ -46,6 +46,15 @@
   gap: 0.5rem;
 }
 
+.buttons button {
+  background-color: var(--dark-bg);
+  text-decoration: none;
+  color: var(--cyan);
+}
+
+a {
+}
+
 .resumeDownload {
   width: 10rem;
 }

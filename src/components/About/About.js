@@ -3,6 +3,7 @@ import "./about.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import resume from "../../assets/JThorne Resume July-2023-1.pdf";
+import certificate from "../../assets/certificateDUbootcamp.pdf";
 
 function About() {
   return (
@@ -35,12 +36,12 @@ function About() {
             games, baking, or playing with my dogs.
           </p>
           <div className="buttons">
-            <button className="resumeDownload">
-              <a href={resume} download>
-                Resume
-              </a>
-            </button>
-            <button className="resumeDownload">Certificate</button>
+            <a href={resume} download>
+              <button className="resumeDownload">Resume</button>
+            </a>
+            <a href={certificate} download>
+              <button className="resumeDownload">Certificate</button>
+            </a>
           </div>
         </div>
       </div>
