@@ -1,3 +1,10 @@
 .socials-icon {
   cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+  .socials-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+}

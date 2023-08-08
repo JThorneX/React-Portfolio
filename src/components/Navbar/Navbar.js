@@ -10,62 +10,60 @@ import { BiPaperPlane } from "react-icons/bi";
 
 function Navbar() {
   return (
-    <div className="navbar-wrapper">
-      <div className="navbar-content">
-        <ul className="nav navbar">
-          <li className="nav-item">
-            <NavLink
-              activeStyle={{ color: "#de92b8" }}
-              className="nav-link"
-              exact
-              to="/home"
-            >
-              <BiHomeHeart size="45" className="nav-icon" />
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className="nav-link"
-              exact
-              to="/about"
-            >
-              <BiCommentError size="45" className="nav-icon" />
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              activeStyle={{ color: "#de92b8" }}
-              className="nav-link"
-              exact
-              to="/experience"
-            >
-              <HiOutlineLightBulb size="45" className="nav-icon" />
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              activeStyle={{ color: "#de92b8" }}
-              className="nav-link"
-              exact
-              to="/projects"
-            >
-              <AiOutlineBarChart size="45" className="nav-icon" />
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              activeStyle={{ color: "#de92b8" }}
-              className="nav-link"
-              exact
-              to="/contact"
-            >
-              <BiPaperPlane size="45" className="nav-icon" />
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-      <div className="nav-socials">
-        <Socials />
+    <div className="nav-wrapper">
+      <div className="navbar-wrapper">
+        <div className="navbar-content">
+          <ul className="nav navbar">
+            <li className="nav-item">
+              <NavLink
+                activeStyle={{ color: "#de92b8" }}
+                className="nav-link"
+                exact
+                to="/home"
+              >
+                <BiHomeHeart size="45" className="nav-icon" />
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/about">
+                <BiCommentError size="45" className="nav-icon" />
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                activeStyle={{ color: "#de92b8" }}
+                className="nav-link"
+                exact
+                to="/experience"
+              >
+                <HiOutlineLightBulb size="45" className="nav-icon" />
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                activeStyle={{ color: "#de92b8" }}
+                className="nav-link"
+                exact
+                to="/projects"
+              >
+                <AiOutlineBarChart size="45" className="nav-icon" />
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                activeStyle={{ color: "#de92b8" }}
+                className="nav-link"
+                exact
+                to="/contact"
+              >
+                <BiPaperPlane size="45" className="nav-icon" />
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+        <div className="nav-socials">
+          <Socials />
+        </div>
       </div>
     </div>
   );

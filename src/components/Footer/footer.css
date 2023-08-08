@@ -47,3 +47,11 @@
 .cyan-logo-img {
   width: 5rem;
 }
+
+@media screen and (max-width: 850px) {
+  .footer-wrapper {
+    padding: 2rem;
+    padding-bottom: 10rem;
+    max-height: 20rem;
+  }
+}

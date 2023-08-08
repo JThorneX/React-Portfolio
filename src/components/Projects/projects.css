@@ -1,5 +1,5 @@
 .project-wrapper {
-  min-height: 1900px;
+  min-height: 100%;
   width: 100vw;
 }
 
@@ -46,7 +46,8 @@
   margin: 0;
 }
 
-.latest-project-img:hover {
+.latest-project-img:hover,
+.current-project-img:hover {
   filter: drop-shadow(1px 1px 20px var(--cyan));
 }
 
@@ -91,7 +92,8 @@ a {
   cursor: default;
 }
 
-.latest-project {
+.latest-project,
+.current-project {
   text-align: center;
   color: var(--cyan);
 }

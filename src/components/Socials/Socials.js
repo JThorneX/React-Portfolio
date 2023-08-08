@@ -6,7 +6,7 @@ import { BsSlack } from "react-icons/bs";
 
 function Socials() {
   return (
-    <>
+    <div className="socials-wrapper">
       <div
         className="hover"
         onMouseOver={({ target }) => (target.style.color = "#006f6f")}
@@ -46,7 +46,7 @@ function Socials() {
           <BsSlack size="25" color="cyan" />
         </a>
       </div>
-    </>
+    </div>
   );
 }
 
