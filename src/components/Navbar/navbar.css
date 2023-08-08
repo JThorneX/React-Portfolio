@@ -100,17 +100,19 @@
     z-index: 2;
     left: 50%;
     bottom: 2rem;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
 
   .navbar-wrapper {
     display: flex;
     flex-direction: row;
-    position: fixed;
     max-width: 600px;
     width: 100%;
     max-height: 5rem;
     height: 100%;
-    padding: 0.1rem;
+    padding: 0rem;
   }
 
   .navbar-content {
