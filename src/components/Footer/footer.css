@@ -55,3 +55,14 @@
     max-height: 20rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .footer-wrapper {
+    padding: 0;
+    padding-bottom: 10rem;
+  }
+
+  .cyan-logo-img {
+    display: none;
+  }
+}
