@@ -69,4 +69,8 @@
   .cyan-logo-img {
     display: none;
   }
+
+  .footer-socials {
+    margin-left: 100%;
+  }
 }

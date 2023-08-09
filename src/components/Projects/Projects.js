@@ -16,7 +16,7 @@ function Projects() {
     <div className="project-wrapper">
       <Navbar />
       <div className="projects-wrapper">
-        <h1>Projects</h1>
+        <h1>Projects</h1> 
         <div className="current-project">
           <h2>Working On...</h2>
           <h4>Gatsby/React Blog</h4>
