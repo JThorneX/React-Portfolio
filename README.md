@@ -29,3 +29,4 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 - ~~Text on skill bars not cyan~~
 - ~~Home and About not selectable from nav on experience page~~
 - ~~Footer overlapping body content when window is shortened~~
+- Coloring is very odd on the Samsung Internet app. Refer to [this](https://stackoverflow.com/questions/60118216/how-do-i-stop-dark-mode-from-destroying-my-css).
