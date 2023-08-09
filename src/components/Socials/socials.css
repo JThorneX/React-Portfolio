@@ -1,3 +1,17 @@
 .socials-icon {
   cursor: pointer;
 }
+
+.socials-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .socials-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

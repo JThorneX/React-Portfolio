@@ -16,8 +16,8 @@ function Projects() {
     <div className="project-wrapper">
       <Navbar />
       <div className="projects-wrapper">
+        <h1>Projects</h1> 
         <div className="current-project">
-          <h1>Projects</h1>
           <h2>Working On...</h2>
           <h4>Gatsby/React Blog</h4>
           <a href="https://github.com/JThorneX/gatsby-blog" target="_blank">

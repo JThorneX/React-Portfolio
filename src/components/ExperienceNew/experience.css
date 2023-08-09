@@ -1,0 +1,203 @@
+.exp-wrapper {
+  background: rgb(179, 104, 13);
+  background: linear-gradient(
+    150deg,
+    rgba(179, 104, 13, 1) 0%,
+    rgba(54, 109, 134, 1) 66%,
+    rgba(1, 139, 167, 1) 100%
+  );
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-header h1 {
+  width: 100%;
+  max-width: 600px;
+  padding: 3.5rem;
+  text-align: center;
+  color: var(--cyan);
+  filter: drop-shadow(1px 1px 5px var(--cyan));
+}
+
+.exp-first-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 5rem;
+  max-width: 100%;
+}
+
+.firstrow-skill {
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.secondrow-skill {
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fox-image {
+  display: flex;
+  margin-left: 15%;
+  height: auto;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.skill-bar {
+  margin: 5rem;
+  width: 60%;
+}
+
+.skill-cluster {
+  margin-left: 5rem;
+}
+
+.icon {
+  margin: 5%;
+}
+
+.exp-second {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2%;
+  padding-left: 10%;
+}
+
+.wireframing {
+  text-align: center;
+}
+
+.wireframe-box {
+  object-fit: cover;
+  margin-bottom: 3rem;
+  max-width: 100%;
+  width: 100%;
+  height: 15rem;
+  cursor: default;
+  cursor: pointer;
+}
+
+.timeline h2 {
+  text-align: center;
+}
+
+.vertical-timeline-element-date {
+  margin: 5%;
+  color: var(--charcoal);
+  font-weight: bold !important;
+}
+
+.big-text-card-d,
+.sub-text-card-d,
+.little-card-text-d {
+  filter: drop-shadow(0px 0px 3px var(--white));
+}
+
+.big-text-card-l,
+.sub-text-card-l,
+.little-text-card-l {
+  filter: drop-shadow(0px 0px 2px var(--dark-fade-bg));
+}
+
+.big-text-card-d {
+  color: var(--charcoal);
+}
+
+.sub-text-card-d {
+  color: var(--charcoal);
+}
+
+.little-card-text-d {
+  color: var(--charcoal);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .exp-first-wrapper,
+  .exp-second {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skill-bar {
+    width: 90%;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-cluster {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .column-one {
+    margin-top: 3rem;
+  }
+
+  .big-text-card-l,
+  .big-text-card-d {
+    font-size: 28px;
+  }
+
+  .little-text-card-l {
+    font-size: 24px !important;
+  }
+
+  .card-mid {
+    font-size: 24px !important;
+  }
+
+  .vertical-timeline-element-date {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill-cluster {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 90%;
+    margin: 0;
+  }
+
+  .fox-image {
+    display: flex;
+    margin-left: 5%;
+    height: auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+
+  .experience {
+    margin-top: 0;
+  }
+
+  .wireframe-box {
+    object-fit: cover;
+    margin-bottom: 1rem;
+    max-width: 90%;
+    width: 90%;
+    height: 15rem;
+    cursor: default;
+  }
+}
