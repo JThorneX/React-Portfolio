@@ -14,7 +14,9 @@ function Footer() {
       <div className="footer-content">
         <h1>JThorne</h1>
         <p>{/* <Coder /> */}</p>
-        <h5>&copy; All rights reserved.</h5>
+        <div className="copy">
+          <h5>&copy; All rights reserved.</h5>
+        </div>
       </div>
       <div className="contact-footer-btn">
         <Link to="" className="link">
