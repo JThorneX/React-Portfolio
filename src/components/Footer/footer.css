@@ -11,12 +11,7 @@
 }
 
 .footer-socials {
-  margin-left: 6rem;
-  display: flex;
-  flex-direction: row;
-  padding: 3rem;
-  gap: 2rem;
-  aspect-ratio: 1/1;
+  margin-left: 70%;
 }
 
 .footer-content {
@@ -31,7 +26,6 @@
   display: grid;
   grid-template-columns: 100%;
   align-items: center;
-
 }
 
 .contact-footer-btn {
@@ -87,7 +81,9 @@
   }
 
   .footer-socials {
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
     gap: 4rem;
     margin: 0;
     margin-top: 1rem;
