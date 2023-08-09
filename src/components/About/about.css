@@ -53,9 +53,18 @@
   color: var(--cyan);
 }
 
-a {
-}
-
 .resumeDownload {
   width: 10rem;
+}
+
+@media screen and (max-width: 850px) {
+  .about-me-text {
+    max-width: 45rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-me-text {
+    padding: 1rem;
+  }
 }
