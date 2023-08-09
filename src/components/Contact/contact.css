@@ -22,12 +22,19 @@
 }
 
 .contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: var(--dark-bg);
 }
 
 .contact-text h1 {
   padding: 3rem;
+}
+
+.contact-text h3 {
+  max-width: 90%;
 }
 
 .alt-options {
@@ -82,4 +89,29 @@ textarea {
 .contact-page-btn:hover {
   background-color: var(--btnhvr);
   color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+  .contact-wrapper {
+    width: 90%;
+    margin: 2rem;
+    grid-template-columns: 15% 80%;
+  }
+
+  form {
+    align-items: end;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+  }
+
+  .contact-option h4 {
+    font-size: 18px;
+  }
+
+  .contact-option a {
+    font-size: 12px;
+  }
 }
