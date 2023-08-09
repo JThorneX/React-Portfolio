@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b5c1d80b.css",
+    "main.css": "/React-Portfolio/static/css/main.c620ff6e.css",
     "main.js": "/React-Portfolio/static/js/main.af4f5278.js",
     "static/media/JThorne Resume July-2023-1.pdf": "/React-Portfolio/static/media/JThorne Resume July-2023-1.09449da14510ba2faa23.pdf",
     "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
@@ -20,11 +20,11 @@
     "static/media/cyan logo jthorne.svg": "/React-Portfolio/static/media/cyan logo jthorne.d8b1df250ccdd862ed6ca3daed56c0f3.svg",
     "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.b5c1d80b.css.map": "/React-Portfolio/static/css/main.b5c1d80b.css.map",
+    "main.c620ff6e.css.map": "/React-Portfolio/static/css/main.c620ff6e.css.map",
     "main.af4f5278.js.map": "/React-Portfolio/static/js/main.af4f5278.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c1d80b.css",
+    "static/css/main.c620ff6e.css",
     "static/js/main.af4f5278.js"
   ]
 }
