@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import resume from "../../assets/JThorne Resume Sept-2023.pdf";
 import certificate from "../../assets/certificateDUbootcamp.pdf";
+import coverLetter from "../../assets/Cover Letter.docx";
 
 function About() {
   return (
@@ -15,8 +16,8 @@ function About() {
         </div>
         <div className="about-me-text">
           <p>
-            Hello! My name is Jacob Thorne and I am from Denver, Colorado. At the
-            beginning of the year, I made the journey into being a developer
+            Hello! My name is Jacob Thorne and I am from Denver, Colorado. At
+            the beginning of the year, I made the journey into being a developer
             through the University of Denver’s Center for Professional
             Development boot camp for Full Stack Development and graduated in
             April. I’ve had a casual interest in coding for most of my life, but
@@ -39,6 +40,9 @@ function About() {
           <div className="buttons">
             <a href={resume} download>
               <button className="resumeDownload">Resume</button>
+            </a>
+            <a href={coverLetter} download>
+              <button className="resumeDownload">Cover Letter</button>
             </a>
             <a href={certificate} download>
               <button className="resumeDownload">Certificate</button>
