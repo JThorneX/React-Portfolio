@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c620ff6e.css",
-    "main.js": "/React-Portfolio/static/js/main.366a3468.js",
-    "static/media/JThorne Resume July-2023-1.pdf": "/React-Portfolio/static/media/JThorne Resume July-2023-1.09449da14510ba2faa23.pdf",
+    "main.js": "/React-Portfolio/static/js/main.628e7519.js",
+    "static/media/JThorne Resume Sept-2023.pdf": "/React-Portfolio/static/media/JThorne Resume Sept-2023.968eb9e847e972e64f53.pdf",
     "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
     "static/media/certificateDUbootcamp.pdf": "/React-Portfolio/static/media/certificateDUbootcamp.46a73da01e72446af8dc.pdf",
     "static/media/latestproject.png": "/React-Portfolio/static/media/latestproject.9418f28a4ff0e7bee527.png",
@@ -21,10 +21,10 @@
     "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.c620ff6e.css.map": "/React-Portfolio/static/css/main.c620ff6e.css.map",
-    "main.366a3468.js.map": "/React-Portfolio/static/js/main.366a3468.js.map"
+    "main.628e7519.js.map": "/React-Portfolio/static/js/main.628e7519.js.map"
   },
   "entrypoints": [
     "static/css/main.c620ff6e.css",
-    "static/js/main.366a3468.js"
+    "static/js/main.628e7519.js"
   ]
 }
