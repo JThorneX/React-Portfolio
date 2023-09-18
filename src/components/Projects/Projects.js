@@ -33,7 +33,7 @@ function Projects() {
 
         <div className="latest-project">
           <h2>Latest Project</h2>
-          <h4>Project 3 - Worked on Frontend (Mainly React)</h4>
+          <h4>Project 3 - Worked on Frontend (React/Custom CSS)</h4>
           <a href="https://github.com/JamesGeneser/Bird-Nerd" target="_blank">
             <div className="latest-project-img">
               <img
@@ -105,7 +105,7 @@ function Projects() {
               </a>
             </div>
             <div className="project-small">
-              <h4>Project 2 - Worked on Backend</h4>
+              <h4>Project 2 - Built with MySQL</h4>
               <a
                 href="https://github.com/hollyhleal/beta-tasters"
                 target="_blank"

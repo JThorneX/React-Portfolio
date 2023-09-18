@@ -102,9 +102,15 @@
   .navbar-content {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     max-width: 600px;
     width: 100%;
     max-height: 4rem;
+  }
+
+  .nav-item a {
+    padding: 0.5rem !important;
   }
 
   .navbar-wrapper ul {

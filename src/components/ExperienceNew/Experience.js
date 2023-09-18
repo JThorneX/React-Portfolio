@@ -182,8 +182,8 @@ function Experience() {
                   Denver, CO
                 </h4>
                 <p className="little-text-card-l">
-                  Collaborated on 3 projects in groups of classmates, maintained
-                  a 96% average on assignments
+                  Collaborated on 3 projects in groups of classmates &
+                  maintained a 96% average on all assignments
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -203,7 +203,7 @@ function Experience() {
                   Littleton, CO
                 </h4>
                 <p className="little-text-card-d card-mid">
-                  Looking for work as a frontend/React developer.
+                  Looking for work as a developer.
                 </p>
               </VerticalTimelineElement>
             </VerticalTimeline>

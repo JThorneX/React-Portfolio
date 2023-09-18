@@ -2,7 +2,7 @@ import React from "react";
 import "./socials.css";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsSlack } from "react-icons/bs";
+import { BsBinoculars } from "react-icons/bs";
 
 function Socials() {
   return (
@@ -39,11 +39,11 @@ function Socials() {
         onMouseOut={({ target }) => (target.style.color = "cyan")}
       >
         <a
-          href="https://join.slack.com/t/jthorneworkspace/shared_invite/zt-1z5dbht81-jOO7yQ08kzYTjR21HgYhGA"
+          href="https://github.com/JThorneX/React-Portfolio"
           target="_blank"
           className="socials-icon"
         >
-          <BsSlack size="25" color="cyan" />
+          <BsBinoculars size="25" color="cyan" />
         </a>
       </div>
     </div>
