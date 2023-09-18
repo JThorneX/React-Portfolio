@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c620ff6e.css",
-    "main.js": "/React-Portfolio/static/js/main.628e7519.js",
+    "main.css": "/React-Portfolio/static/css/main.c6d7b834.css",
+    "main.js": "/React-Portfolio/static/js/main.5d0b11ab.js",
     "static/media/JThorne Resume Sept-2023.pdf": "/React-Portfolio/static/media/JThorne Resume Sept-2023.968eb9e847e972e64f53.pdf",
     "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
     "static/media/certificateDUbootcamp.pdf": "/React-Portfolio/static/media/certificateDUbootcamp.46a73da01e72446af8dc.pdf",
@@ -17,14 +17,15 @@
     "static/media/quizfront.png": "/React-Portfolio/static/media/quizfront.b58ec48a5258cd0a629c.png",
     "static/media/wireframing3.png": "/React-Portfolio/static/media/wireframing3.f1dc5b4a78c18b848354.png",
     "static/media/about background.png": "/React-Portfolio/static/media/about background.ceb98369529d3bc4dcfa.png",
+    "static/media/Cover Letter.docx": "/React-Portfolio/static/media/Cover Letter.f5479981fddaba8786ae.docx",
     "static/media/cyan logo jthorne.svg": "/React-Portfolio/static/media/cyan logo jthorne.d8b1df250ccdd862ed6ca3daed56c0f3.svg",
     "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.c620ff6e.css.map": "/React-Portfolio/static/css/main.c620ff6e.css.map",
-    "main.628e7519.js.map": "/React-Portfolio/static/js/main.628e7519.js.map"
+    "main.c6d7b834.css.map": "/React-Portfolio/static/css/main.c6d7b834.css.map",
+    "main.5d0b11ab.js.map": "/React-Portfolio/static/js/main.5d0b11ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.c620ff6e.css",
-    "static/js/main.628e7519.js"
+    "static/css/main.c6d7b834.css",
+    "static/js/main.5d0b11ab.js"
   ]
 }
