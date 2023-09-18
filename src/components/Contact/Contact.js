@@ -41,6 +41,8 @@ function Contact() {
                 Send An Email
               </a>
             </article>
+            <br />
+            <br />
             <article className="contact-option">
               <BsLinkedin size="50" color="cyan" />
               <h4>Linkedin</h4>
@@ -49,16 +51,6 @@ function Contact() {
                 target="_blank"
               >
                 Connect With Me
-              </a>
-            </article>
-            <article className="contact-option">
-              <BsSlack size="50" color="cyan" />
-              <h4>Slack</h4>
-              <a
-                href="https://join.slack.com/t/jthorneworkspace/shared_invite/zt-1z5dbht81-jOO7yQ08kzYTjR21HgYhGA"
-                target="_blank"
-              >
-                Join My Workspace
               </a>
             </article>
           </div>

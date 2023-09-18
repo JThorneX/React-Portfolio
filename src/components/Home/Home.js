@@ -31,7 +31,7 @@ function Home() {
                 className="white-logo-img"
               />
             </div>
-            <h3>Web Dev</h3>
+            <h3>Developer</h3>
           </div>
         </div>
       </div>
