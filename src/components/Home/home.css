@@ -16,11 +16,29 @@
   align-items: center;
 }
 
+.back {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.takeMeBack {
+  padding: 1rem;
+  width: 8rem;
+  background-color: transparent;
+  color: cyan;
+}
+
+.takeMeBack:hover {
+  background-color: rgb(14, 46, 50);
+  color: white;
+}
+
 .home-content {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 25%;
+  width: 30rem;
+  height: 15rem;
   text-align: center;
   justify-content: center;
   background-color: var(--light-fade-bg);
@@ -38,13 +56,13 @@
   width: 5rem;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
   .home-content {
     width: 70%;
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .home-content {
     width: 90%;
   }
