@@ -19,10 +19,10 @@ function NewSplash() {
         <img src={whitelogo} alt="white logo" className="white-logo-img" />
       </div>
       <div className="buttons">
-        <a href="/summary">
+        <a href="React-Portfolio/summary">
           <button className="summary">Ain't Nobody Got Time For This</button>
         </a>
-        <a href="/home">
+        <a href="React-Portfolio/home">
           <button className="fullSite">Show Me What You Got</button>
         </a>
       </div>
