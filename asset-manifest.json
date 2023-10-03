@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c6d7b834.css",
-    "main.js": "/React-Portfolio/static/js/main.5d0b11ab.js",
+    "main.css": "/React-Portfolio/static/css/main.cabc61aa.css",
+    "main.js": "/React-Portfolio/static/js/main.b3db5c6b.js",
     "static/media/JThorne Resume Sept-2023.pdf": "/React-Portfolio/static/media/JThorne Resume Sept-2023.968eb9e847e972e64f53.pdf",
     "static/media/devlore_preview.png": "/React-Portfolio/static/media/devlore_preview.c6e2c466f740b131b7e0.png",
     "static/media/certificateDUbootcamp.pdf": "/React-Portfolio/static/media/certificateDUbootcamp.46a73da01e72446af8dc.pdf",
-    "static/media/latestproject.png": "/React-Portfolio/static/media/latestproject.9418f28a4ff0e7bee527.png",
     "static/media/foxoutline.svg": "/React-Portfolio/static/media/foxoutline.ff648b09b763be91987410dced7c4b49.svg",
+    "static/media/birdnerd.png": "/React-Portfolio/static/media/birdnerd.0df2c1d60ee89fb20a5d.png",
     "static/media/wireframing1.png": "/React-Portfolio/static/media/wireframing1.c3836c67e082a0e4a404.png",
-    "static/media/currentproject.png": "/React-Portfolio/static/media/currentproject.6b2f467b5d1c48fa6803.png",
+    "static/media/latestproject.png": "/React-Portfolio/static/media/latestproject.6b2f467b5d1c48fa6803.png",
+    "static/media/currentproject.png": "/React-Portfolio/static/media/currentproject.1554bbee6319b7a85009.png",
     "static/media/backend3.png": "/React-Portfolio/static/media/backend3.c778129d34dd0f73601a.png",
     "static/media/wireframing2.png": "/React-Portfolio/static/media/wireframing2.f073be3938c3c9601a44.png",
-    "static/media/shall portfolio.png": "/React-Portfolio/static/media/shall portfolio.b91f621bad3a36226f3b.png",
     "static/media/backend2.png": "/React-Portfolio/static/media/backend2.70ed9d5fddf47b0da3fb.png",
     "static/media/workdayfront.png": "/React-Portfolio/static/media/workdayfront.95ad6dbcbadc7052c9cb.png",
     "static/media/quizfront.png": "/React-Portfolio/static/media/quizfront.b58ec48a5258cd0a629c.png",
@@ -21,11 +21,11 @@
     "static/media/cyan logo jthorne.svg": "/React-Portfolio/static/media/cyan logo jthorne.d8b1df250ccdd862ed6ca3daed56c0f3.svg",
     "static/media/white logo jthorne.svg": "/React-Portfolio/static/media/white logo jthorne.b6a0e11a88be9c137b3aa12683da0f94.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.c6d7b834.css.map": "/React-Portfolio/static/css/main.c6d7b834.css.map",
-    "main.5d0b11ab.js.map": "/React-Portfolio/static/js/main.5d0b11ab.js.map"
+    "main.cabc61aa.css.map": "/React-Portfolio/static/css/main.cabc61aa.css.map",
+    "main.b3db5c6b.js.map": "/React-Portfolio/static/js/main.b3db5c6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d7b834.css",
-    "static/js/main.5d0b11ab.js"
+    "static/css/main.cabc61aa.css",
+    "static/js/main.b3db5c6b.js"
   ]
 }
