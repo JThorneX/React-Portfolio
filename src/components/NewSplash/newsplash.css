@@ -34,3 +34,9 @@
   width: 20rem;
   padding: 1rem;
 }
+
+.summary:hover,
+.fullSite:hover {
+  background-color: rgb(6, 38, 42);
+  color: white;
+}
