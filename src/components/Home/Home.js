@@ -22,6 +22,13 @@ function Home() {
       <div className="position-fixed">
         <Navbar />
         <div className="container home-container">
+          <p className="back">
+            <div className="goBackButton">
+              <a href="React-Portfolio/">
+                <button className="takeMeBack">Go Back</button>
+              </a>
+            </div>
+          </p>
           <div className="home-content">
             <h1>Jacob Thorne</h1>
             <div className="black-logo">

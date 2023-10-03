@@ -7,6 +7,10 @@
   position: fixed;
 }
 
+.nav-wrapper {
+  z-index: 1;
+}
+
 .nav-icon {
   color: var(--cyan);
   cursor: pointer;
