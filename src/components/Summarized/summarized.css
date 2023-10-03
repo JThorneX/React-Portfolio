@@ -50,7 +50,7 @@
 
 .aboutMeText {
   font-size: 2rem;
-  width: 80%;
+  width: 50%;
   text-align: center;
   color: cyan;
   padding: 1rem;
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
   place-items: center;
-  width: 40%;
+  width: 20%;
   gap: 0.5rem;
 }
 
@@ -245,6 +245,10 @@ a {
 
   .aboutMeText {
     font-size: 22px;
+  }
+
+  .buttonsSocial {
+    width: 30%;
   }
 
   .latestProjectImg,
