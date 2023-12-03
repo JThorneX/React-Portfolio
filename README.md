@@ -24,7 +24,7 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 - Header (undecided)
 - ~~Timeline on experience page~~
 - ~~Auto scroll the page up when using the nav to change pages~~
-- Light/Dark mode toggle
+- Light/Dark mode toggle (probably not, I like the dark too much)
 
 ### Known Bugs
 
