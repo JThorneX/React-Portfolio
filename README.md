@@ -20,15 +20,15 @@ Otherwise, npm i to install dependencies then npm start to start server and view
 
 ### To Work On
 
-- ~~Responsiveness~~
+- ~~Responsiveness~~ 8/9
 - Header (undecided)
-- ~~Timeline on experience page~~
-- ~~Auto scroll the page up when using the nav to change pages~~
-- Light/Dark mode toggle (probably not, I like the dark too much)
+- ~~Timeline on experience page~~ 7/4
+- ~~Auto scroll the page up when using the nav to change pages~~ 8/7
+- Light/Dark mode toggle
 
 ### Known Bugs
 
-- ~~Text on skill bars not cyan~~
-- ~~Home and About not selectable from nav on experience page~~
-- ~~Footer overlapping body content when window is shortened~~
+- ~~Text on skill bars not cyan~~ 7/5
+- ~~Home and About not selectable from nav on experience page~~ 8/7
+- ~~Footer overlapping body content when window is shortened~~ 8/7
 - Coloring is very odd on the Samsung Internet app. Refer to [this](https://stackoverflow.com/questions/60118216/how-do-i-stop-dark-mode-from-destroying-my-css).
